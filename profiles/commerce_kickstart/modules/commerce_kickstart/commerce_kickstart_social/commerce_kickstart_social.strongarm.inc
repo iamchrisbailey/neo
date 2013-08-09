@@ -34,6 +34,15 @@ function commerce_kickstart_social_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'service_links_node_types';
+  $strongarm->value = array(
+    0 => 'product_display',
+  );
+  $export['service_links_node_types'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'service_links_show';
   $strongarm->value = array(
     'twitter_widget' => 1,
@@ -55,13 +64,6 @@ function commerce_kickstart_social_strongarm() {
   $strongarm->name = 'service_links_visibility_for_node';
   $strongarm->value = '0';
   $export['service_links_visibility_for_node'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'service_links_node_types';
-  $strongarm->value = array_keys(commerce_product_reference_node_types());
-  $export['service_links_node_types'] = $strongarm;
 
   return $export;
 }
