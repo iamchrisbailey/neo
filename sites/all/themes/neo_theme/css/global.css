@@ -1670,27 +1670,32 @@ div.messages.commerce-add-to-cart-confirmation {
       margin: 0;
       padding-bottom: 1em; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit {
-      background-color: #2698F2;
-      background-image: url("../images/bg_add_to_cart.png");
+      background-color: #E0E0E0;
+      background-image: none;
       background-position: 90% 50%;
       /* LTR */
       background-repeat: no-repeat;
       border: 0;
-      -moz-border-radius: 8px;
-      -webkit-border-radius: 8px;
-      -khtml-border-radius: 8px;
-      border-radius: 8px;
-      color: #ffffff;
-      font-family: "Open Sans", sans-serif;
-      font-size: 17px;
-      font-weight: 400;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      -khtml-border-radius: 2px;
+      border-radius: 2px;
+      color: #444444;
+      font-family: Helvetica,Arial,sans-serif !important;
+      font-size: 12px;
+      font-weight: bold;
+      height: 36px;
+      line-height: 36px;
+      letter-spacing: 1px !important;
       margin-top: 40px;
       margin-left: 5px;
       /* LTR */
-      padding: 5px 50px 5px 10px;
+      padding: 5px 10px 5px 10px;
+      text-transform: uppercase;
       /* LTR */ }
       .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .form-submit:hover {
-        cursor: pointer; }
+        cursor: pointer;
+        background: #EEE2C9; }
 
 .service-links {
   float: right;
