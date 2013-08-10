@@ -54,6 +54,8 @@ css[global.css][description] = 'This file holds all the globally active custom C
 css[global.css][options][weight] = '10'
 stylesheets[all][] = css/font-awesome.css
 stylesheets[all][] = css/font-awesome-ie7.min.css
+fonts[google_fonts_api][] = "Droid Serif&subset=latin#700"
+fonts[google_fonts_api][] = "Droid Serif&subset=latin#regular"
 
 settings[alpha_grid] = 'alpha_default'
 settings[alpha_primary_alpha_default] = 'normal'
