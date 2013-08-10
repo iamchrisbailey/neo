@@ -1585,7 +1585,7 @@ div.messages.commerce-add-to-cart-confirmation {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
   .node-product-type .field-name-body .read-more,
   .node-product-type .field-name-body .read-less,
   .node-product-type .field-name-body .read-more a,
@@ -1616,12 +1616,14 @@ div.messages.commerce-add-to-cart-confirmation {
   .node-product-type .field-name-body .read-less a {
     background-image: url("../images/btn_read_less.png"); }
 .node-product-type .field-type-commerce-product-reference {
-  background: url("../images/bg_product_attributes_bottom.png") center bottom no-repeat;
+  background: none;
   margin-bottom: 15px;
-  padding-bottom: 50px; }
+  border-bottom: 1px solid #DDDDDD;
+  padding-bottom: 20px; }
   .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart {
-    background: url("../images/bg_product_attributes_top.png") center top no-repeat;
-    padding-top: 40px; }
+    background: none;
+    border-top: 1px solid #DDDDDD;
+    padding-top: 20px; }
     .node-product-type .field-type-commerce-product-reference form.commerce-add-to-cart .attribute-widgets .form-item {
       position: relative;
       /* Positions the throbber */ }
