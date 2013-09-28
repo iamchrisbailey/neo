@@ -62,10 +62,8 @@
 .navigation {
   background: transparent;
   display: block !important;
-  margin: 15px 0;
+  margin: 0;
   padding-bottom: 0;
-  border-top: 1px solid #cccccc;
-  border-bottom: 1px solid #cccccc;
   /* Main menu */
   /* Secondary menu */ }
   .navigation h2 {

@@ -21,6 +21,7 @@ regions[breadcrumb] = Breadcrumb
 regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second
 
+regions[slider] = Slider
 regions[header_first] = Header First
 regions[header_second] = Header Second
 

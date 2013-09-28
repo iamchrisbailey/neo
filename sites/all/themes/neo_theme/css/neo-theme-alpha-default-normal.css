@@ -27,6 +27,19 @@
 .navigation .second-menu .links li {
   font-size: 1em; }
 
+.region-slider .flexslider {
+  background: transparent;
+  border: 0;
+  border-radius: 0 0 0 0;
+  box-shadow: none;
+  margin: 0 0 20px;
+  position: relative;
+}
+
+  .region-slider .flexslider ul li {
+    margin-left: 0;
+}
+
 /**************************************************
 * --
 * 3. Section content
@@ -228,6 +241,6 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .view-confirm-mess
 
 /* Cloud zoom */
 .node-product-type .cloud-zoom-container .cloud-zoom-gallery-thumbs .cloud-zoom-gallery {
-  margin: 0 30px 20px; }
+  margin: 20px 20px 0 0; border: 0; }
 .node-product-type .field-name-field-product form.commerce-add-to-cart label {
   float: left; }
