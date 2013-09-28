@@ -28,6 +28,9 @@ function flexslider_example_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'product_list' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(

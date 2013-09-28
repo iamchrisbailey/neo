@@ -14,7 +14,7 @@ function commerce_kickstart_lite_product_commerce_product_default_types() {
       'name' => 'Product',
       'description' => 'A basic product type.',
       'help' => '',
-      'revision' => '1',
+      'revision' => 1,
     ),
   );
   return $items;
@@ -23,8 +23,7 @@ function commerce_kickstart_lite_product_commerce_product_default_types() {
 /**
  * Implements hook_ctools_plugin_api().
  */
-function commerce_kickstart_lite_product_ctools_plugin_api() {
-  list($module, $api) = func_get_args();
+function commerce_kickstart_lite_product_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }
@@ -50,10 +49,10 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '383',
-          'height' => '255',
+          'width' => 940,
+          'height' => 500,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -72,10 +71,10 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '300',
-          'height' => '200',
+          'width' => 300,
+          'height' => 200,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
@@ -94,10 +93,10 @@ function commerce_kickstart_lite_product_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '51',
-          'height' => '34',
+          'width' => 71,
+          'height' => 54,
         ),
-        'weight' => '1',
+        'weight' => 1,
       ),
     ),
   );
