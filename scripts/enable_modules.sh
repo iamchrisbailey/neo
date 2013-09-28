@@ -10,3 +10,9 @@ drush en -y feeds_ui
 drush en -y feeds_tamper
 drush en -y feeds_tamper_ui
 drush en -y commerce_feeds
+drush en -y flexslider
+drush en -y flexslider_example
+drush en -y flexslider_views
+
+#Features test
+drush en -y neo_slideshow
