@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NEO Slideshow feature.
+ */
+
+include_once 'neo_slideshow.features.inc';
