@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NEO Products Shoes feature.
+ */
+
+include_once 'neo_products_shoes.features.inc';

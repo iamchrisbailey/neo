@@ -16,3 +16,4 @@ drush en -y flexslider_views
 
 #Features test
 drush en -y neo_slideshow
+drush en -y neo_products_shoes
