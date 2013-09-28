@@ -396,10 +396,193 @@ function neo_products_shoes_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-shoes-field_product'
+  $field_instances['node-shoes-field_product'] = array(
+    'bundle' => 'shoes',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'commerce_cart',
+        'settings' => array(
+          'combine' => 1,
+          'default_quantity' => 1,
+          'line_item_type' => 0,
+          'show_quantity' => 1,
+          'show_single_product_attributes' => FALSE,
+        ),
+        'type' => 'commerce_cart_add_to_cart_form',
+        'weight' => 3,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'commerce_cart',
+        'settings' => array(
+          'combine' => 1,
+          'default_quantity' => 1,
+          'line_item_type' => 0,
+          'show_quantity' => 1,
+          'show_single_product_attributes' => FALSE,
+        ),
+        'type' => 'commerce_cart_add_to_cart_form',
+        'weight' => 5,
+      ),
+      'product_list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 6,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_product',
+    'label' => 'Product variations',
+    'required' => TRUE,
+    'settings' => array(
+      'field_injection' => 1,
+      'referenceable_types' => array(
+        'shoes' => 'shoes',
+      ),
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'inline_entity_form',
+      'settings' => array(
+        'fields' => array(),
+        'type_settings' => array(
+          'allow_existing' => 0,
+          'autogenerate_title' => 1,
+          'delete_references' => 1,
+          'match_operator' => 'CONTAINS',
+          'use_variation_language' => 1,
+        ),
+      ),
+      'type' => 'inline_entity_form',
+      'weight' => 31,
+    ),
+  );
+
+  // Exported field_instance: 'node-shoes-field_product_category'
+  $field_instances['node-shoes-field_product_category'] = array(
+    'bundle' => 'shoes',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 4,
+      ),
+      'product_list' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 7,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'fences_wrapper' => '',
+    'field_name' => 'field_product_category',
+    'label' => 'Product category',
+    'product_catalog' => 1,
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_buttons',
+      'weight' => 33,
+    ),
+  );
+
+  // Exported field_instance: 'node-shoes-title_field'
+  $field_instances['node-shoes-title_field'] = array(
+    'bundle' => 'shoes',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'title',
+        'settings' => array(
+          'title_class' => '',
+          'title_link' => '',
+          'title_style' => '_none',
+        ),
+        'type' => 'title_linked',
+        'weight' => -20,
+      ),
+      'product_list' => array(
+        'label' => 'hidden',
+        'module' => 'title',
+        'settings' => array(
+          'title_class' => '',
+          'title_link' => 'content',
+          'title_style' => '_none',
+        ),
+        'type' => 'title_linked',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'module' => 'title',
+        'settings' => array(
+          'title_class' => '',
+          'title_link' => 'content',
+          'title_style' => '',
+        ),
+        'type' => 'title_linked',
+        'weight' => -20,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'title_field',
+    'label' => 'Title',
+    'required' => TRUE,
+    'settings' => array(
+      'hide_label' => array(
+        'entity' => 'entity',
+        'page' => 0,
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => -5,
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Images');
   t('Price');
+  t('Product category');
+  t('Product variations');
   t('Size');
   t('Title');
 
