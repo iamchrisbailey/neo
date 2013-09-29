@@ -27,35 +27,6 @@
 .navigation .second-menu .links li {
   font-size: 1em; }
 
-.region-slider .flexslider {
-  background: transparent;
-  border: 0;
-  border-radius: 0 0 0 0;
-  box-shadow: none;
-  margin: 20px 0;
-  position: relative;
-}
-
-.region-slider .flexslider ul li {
-  margin-left: 0;
-}
-
-.region-slider .flex-direction-nav a {
-  color: rgba(255, 255, 255, 0.6);
-  cursor: pointer;
-  display: block;
-  height: 48px;
-  margin: -20px 0 0;
-  opacity: 0;
-  overflow: hidden;
-  position: absolute;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
-  top: 50%;
-  transition: all 0.3s ease 0s;
-  width: 40px;
-  z-index: 10;
-}
-
 /**************************************************
 * --
 * 3. Section content
