@@ -770,6 +770,11 @@ select {
     padding-bottom: 10px;
     position: relative; }
 
+.field-name-field-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 /*******************************************
 * 3.2.1. Sidebar first
 *******************************************/
