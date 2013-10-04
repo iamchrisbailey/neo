@@ -211,26 +211,23 @@ function neo_slideshow_views_default_views() {
   $handler->display->display_options['fields']['field_link']['field'] = 'field_link';
   $handler->display->display_options['fields']['field_link']['label'] = '';
   $handler->display->display_options['fields']['field_link']['exclude'] = TRUE;
-  $handler->display->display_options['fields']['field_link']['element_type'] = '0';
   $handler->display->display_options['fields']['field_link']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_link']['element_wrapper_type'] = '0';
   $handler->display->display_options['fields']['field_link']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['field_link']['click_sort_column'] = 'url';
   $handler->display->display_options['fields']['field_link']['type'] = 'link_title_plain';
-  $handler->display->display_options['fields']['field_link']['field_api_classes'] = TRUE;
   /* Field: Content: Tagline */
   $handler->display->display_options['fields']['field_tagline']['id'] = 'field_tagline';
   $handler->display->display_options['fields']['field_tagline']['table'] = 'field_data_field_tagline';
   $handler->display->display_options['fields']['field_tagline']['field'] = 'field_tagline';
   $handler->display->display_options['fields']['field_tagline']['label'] = '';
   $handler->display->display_options['fields']['field_tagline']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_tagline']['alter']['text'] = '<div class="slideshow-wrapper">
+  $handler->display->display_options['fields']['field_tagline']['alter']['text'] = '<a href="[field_link]"><div class="slideshow-wrapper">
   [field_image]
   <div class="headline-wrapper">
     <div class="slider-headline">[field_headline]</div>
     <div class="slider-tagline">[field_tagline]</div>
   </div>
-</div>';
+</div></a>';
   $handler->display->display_options['fields']['field_tagline']['element_type'] = '0';
   $handler->display->display_options['fields']['field_tagline']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_tagline']['element_wrapper_type'] = '0';
