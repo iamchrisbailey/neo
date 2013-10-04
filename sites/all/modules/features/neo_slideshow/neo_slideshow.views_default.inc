@@ -36,7 +36,7 @@ function neo_slideshow_views_default_views() {
     'title' => 'title',
     'field_link' => 'field_link',
     'draggableviews' => 'draggableviews',
-    'delete_node' => 'delete_node',
+    'delete_node' => 'edit_node',
     'edit_node' => 'edit_node',
   );
   $handler->display->display_options['style_options']['default'] = '-1';
@@ -69,12 +69,12 @@ function neo_slideshow_views_default_views() {
     ),
     'delete_node' => array(
       'align' => '',
-      'separator' => '',
+      'separator' => '<br>',
       'empty_column' => 0,
     ),
     'edit_node' => array(
       'align' => '',
-      'separator' => '',
+      'separator' => '<br>',
       'empty_column' => 0,
     ),
   );
@@ -122,14 +122,15 @@ function neo_slideshow_views_default_views() {
   $handler->display->display_options['fields']['draggableviews']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['draggableviews']['hide_alter_empty'] = FALSE;
   $handler->display->display_options['fields']['draggableviews']['draggableviews']['ajax'] = 0;
-  /* Field: Content: Delete link */
-  $handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
-  $handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
-  $handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
   /* Field: Content: Edit link */
   $handler->display->display_options['fields']['edit_node']['id'] = 'edit_node';
   $handler->display->display_options['fields']['edit_node']['table'] = 'views_entity_node';
   $handler->display->display_options['fields']['edit_node']['field'] = 'edit_node';
+  $handler->display->display_options['fields']['edit_node']['label'] = 'Controls';
+  /* Field: Content: Delete link */
+  $handler->display->display_options['fields']['delete_node']['id'] = 'delete_node';
+  $handler->display->display_options['fields']['delete_node']['table'] = 'views_entity_node';
+  $handler->display->display_options['fields']['delete_node']['field'] = 'delete_node';
   /* Sort criterion: Draggableviews: Weight */
   $handler->display->display_options['sorts']['weight']['id'] = 'weight';
   $handler->display->display_options['sorts']['weight']['table'] = 'draggableviews_structure';
