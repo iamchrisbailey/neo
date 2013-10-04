@@ -252,6 +252,10 @@ select {
   margin-left: 0;
 }
 
+.node-shoes .node ol, .node ul {
+  padding-left: 0;
+}
+
 .node-shoes .flex-direction-nav a {
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
