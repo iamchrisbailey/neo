@@ -1329,6 +1329,8 @@ body.activebar-container .zone-footer2-wrapper {
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row {
   float: left;
   margin-left:0;
+  margin-right: 20px;
+  width: 300px;
   /* LTR */ }
 .view-collection-products .view-content .item-list .products-per-collection li.views-row.last,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li.views-row.last {
