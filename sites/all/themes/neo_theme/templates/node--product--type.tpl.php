@@ -13,7 +13,7 @@
   <div class="grid-24 alpha omega clearfix">
     <?php print render($content['product:field_images']); ?>
   </div>
-  <div class="grid-11 omega">
+  <div class="grid-24 alpha omega">
     <div<?php print $content_attributes; ?>>
       <?php
         // We hide the comments and links now so that we can render them later.
