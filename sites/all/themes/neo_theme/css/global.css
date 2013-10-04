@@ -272,6 +272,35 @@ select {
   z-index: 10;
 }
 
+.slideshow-wrapper {
+  position: relative;
+}
+
+.headline-wrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.slider-headline {
+  font-family: Titillium Web;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px #000000;
+  line-height: .5;
+}
+
+.slider-tagline {
+  font-family: Titillium Web;
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
 /**************************************************
 * --
 * 2. Section header
