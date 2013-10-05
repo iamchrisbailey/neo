@@ -1017,9 +1017,9 @@ select {
   /* HP blocks */ }
   #zone-postscript .view-ad-push .views-row,
   #zone-postscript .block-blog-block .block-inner {
-    background-color: #cccccc;
-    border: 1px solid #b1b1b1;
-    padding: 10px; }
+    background-color: #ffffff;
+    padding: 10px; 
+    box-shadow: 0, 0, 5px, rgba(0, 0, 0, 0.2);}
     #zone-postscript .view-ad-push .views-row .field-content a,
     #zone-postscript .view-ad-push .views-row .content a,
     #zone-postscript .block-blog-block .block-inner .field-content a,
