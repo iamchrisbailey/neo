@@ -545,8 +545,8 @@ select {
 */
 
 .zone-menu-wrapper {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 .menu-toggle {
@@ -633,7 +633,7 @@ select {
   .navigation .primary-menu ul li a {
     background-color: transparent;
     /*border: 1px solid #cccccc;*/
-    color: #888888;
+    color: #666666;
     text-transform: uppercase; }
     .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover {
       background-color: transparent;
