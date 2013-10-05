@@ -239,7 +239,7 @@ select {
   z-index: 10;
 }
 
-.node-shoes .flexslider {
+.flexslider {
   background: transparent;
   border: 0;
   border-radius: 0 0 0 0;
@@ -248,7 +248,7 @@ select {
   position: relative;
 }
 
-.node-shoes .flexslider ul li {
+.flexslider ul li {
   margin-left: 0;
 }
 
@@ -256,7 +256,11 @@ select {
   padding-left: 0;
 }
 
-.node-shoes .flex-direction-nav a {
+.flexslider .node ol, .node ul {
+  padding-left: 0;
+}
+
+.flex-direction-nav a {
   color: rgba(255, 255, 255, 0.6);
   cursor: pointer;
   display: block;
