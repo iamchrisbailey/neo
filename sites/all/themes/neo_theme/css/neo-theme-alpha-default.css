@@ -237,10 +237,10 @@
 /**
 * Menu footer navigation
 */
-.section-footer ul.menu li.expanded {
+.zone-footer2-wrapper ul.menu li.expanded {
   display: inline;
   float: left;
-  /* LTR */ }
+}
 
 /**********************************************
 * 4.2. Zone footer2
