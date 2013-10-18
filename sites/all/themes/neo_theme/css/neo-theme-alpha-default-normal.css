@@ -174,7 +174,8 @@
 #zone-postscript .block-blog-block .views-field-title .field-content {
   font-size: 18px;
   line-height: 26px;
-  color: #000000; }
+  color: #000000; 
+  text-align: center; }
 
 /**************************************************
 * --
