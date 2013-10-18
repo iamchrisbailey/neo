@@ -13,6 +13,7 @@ drush en -y commerce_feeds
 drush en -y flexslider
 drush en -y flexslider_example
 drush en -y flexslider_views
+drush en -y commerce_product_clone
 
 #Features test
 drush en -y neo_slideshow

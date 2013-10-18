@@ -173,7 +173,8 @@
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
   font-size: 18px;
-  line-height: 26px; }
+  line-height: 26px;
+  color: #000000; }
 
 /**************************************************
 * --

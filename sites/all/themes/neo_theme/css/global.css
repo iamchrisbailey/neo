@@ -995,7 +995,7 @@ select {
   margin-bottom: 24px;
   /* HP blocks */ }
   #zone-postscript .view-ad-push .views-row,
-  #zone-postscript .block-blog-block .block-inner {
+  #zone-postscript .block-blog-block .block-inner img {
     background-color: #ffffff;
     padding: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }

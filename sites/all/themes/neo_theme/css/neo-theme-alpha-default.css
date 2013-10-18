@@ -212,10 +212,7 @@
       max-width: 100%; }
   #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
   #zone-postscript .block-blog-block .block-inner .content .views-field-title {
-    position: absolute;
-    bottom: 10%;
-    left: 7%;
-    width: 86%; }
+     }
     #zone-postscript .view-ad-push .views-row .views-field-field-tagline a,
     #zone-postscript .block-blog-block .block-inner .content .views-field-title a {
       border: 0; }
