@@ -995,10 +995,8 @@ select {
   margin-bottom: 24px;
   /* HP blocks */ }
   #zone-postscript .view-ad-push .views-row,
-  #zone-postscript .block-blog-block .block-inner img {
-    background-color: #ffffff;
-    padding: 10px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+  #zone-postscript .block-blog-block .block-inner {
+    }
     #zone-postscript .view-ad-push .views-row .field-content a,
     #zone-postscript .view-ad-push .views-row .content a,
     #zone-postscript .block-blog-block .block-inner .field-content a,
@@ -1017,7 +1015,10 @@ select {
     #zone-postscript .block-blog-block .block-inner .views-field-title {
       margin: 10px auto 0 auto; }
   #zone-postscript .view-ad-push .views-row .views-field-field-image {
-    display: block; }
+    display: block;
+    background-color: #ffffff;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
   #zone-postscript .view-ad-push .views-row .views-field-field-headline {
     font-family: Georgia, 'Times New Roman', serif; }
   #zone-postscript .block-blog-block .block-inner .block-title {
