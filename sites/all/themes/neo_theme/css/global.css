@@ -1191,6 +1191,16 @@ select {
 body.activebar-container .zone-footer2-wrapper {
   min-height: 100px; }
 
+.zone-footer2 {
+  font-size: 11px;
+  color: #666;
+}
+
+.zone-footer2 h2.block-title {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+
 /**
 * Powered by Drupal Commerce
 */
