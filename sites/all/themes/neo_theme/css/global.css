@@ -144,6 +144,8 @@ h2 {
 
 .field-name-title-field {
   margin-bottom: 0;
+  line-height: 1;
+  margin-top: 10px;
 }
 
 a:link, a:visited {
@@ -1377,6 +1379,10 @@ body.activebar-container .zone-footer2-wrapper {
       color: #000000;
       font-size: 14px;
       text-decoration: none; }
+    .view-collection-products .view-content table th,
+    .view-collection-taxonomy-term .view-content table td {
+      padding: 5px 20px 5px 0;
+      width: 300px; }
 .view-collection-products .view-content .item-list .products-per-collection li .field-type-commerce-price,
 .view-collection-taxonomy-term .view-content .item-list .products-per-collection li .field-type-commerce-price {
   color: #858787;
