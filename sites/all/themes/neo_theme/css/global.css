@@ -1206,6 +1206,27 @@ body.activebar-container .zone-footer2-wrapper {
   font-size: 14px;
 }
 
+.connect-wrapper {
+
+}
+
+.connect-icon a {
+   background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    float: left;
+    font-size: 18px;
+    height: 30px;
+    margin-right: 10px;
+    padding: 3px;
+    text-align: center;
+    width: 30px;
+}
+
+.connect-icon a:hover {
+  background: #666;
+}
+
 /**
 * Powered by Drupal Commerce
 */
