@@ -172,10 +172,12 @@
 **********************************************/
 #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content,
 #zone-postscript .block-blog-block .views-field-title .field-content {
-  font-size: 18px;
-  line-height: 26px;
-  color: #000000; 
-  text-align: center; }
+    color: #444444;
+    font-family: maven pro;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase; }
 
 /**************************************************
 * --
