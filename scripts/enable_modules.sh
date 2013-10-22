@@ -14,6 +14,8 @@ drush en -y flexslider
 drush en -y flexslider_example
 drush en -y flexslider_views
 drush en -y commerce_product_clone
+drush en -y draggableviews
+drush en -y menu_block
 
 #Features test
 drush en -y neo_slideshow
