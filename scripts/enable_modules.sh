@@ -17,4 +17,4 @@ drush en -y commerce_product_clone
 
 #Features test
 drush en -y neo_slideshow
-drush en -y neo_products_shoes
+drush en -y neo_press
