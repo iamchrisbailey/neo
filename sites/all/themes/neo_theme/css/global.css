@@ -149,11 +149,11 @@ h2 {
 }
 
 a:link, a:visited {
-  color: #2698f2;
+  color: #444444;
   text-decoration: none; }
 
 a:hover {
-  color: #000000; }
+  color: #C2C2C2; }
 
 h1#page-title {
   font-size: 28px;
@@ -976,6 +976,19 @@ select {
       margin: 0; }
       .front .node .node-links ul li {
         margin: 0; }
+
+#zone-content .view-press .field-name-field-image {
+  display: block;
+  background-color: #ffffff;
+  padding: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+#zone-content .view-press .views-field-title {
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /*******************************************
 * 3.2.3. Sidebar second
