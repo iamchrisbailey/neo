@@ -992,6 +992,14 @@ select {
   text-transform: uppercase;
 }
 
+#zone-content .menu-block-1 li {
+  list-style: none;
+}
+
+#zone-content .menu-block-1 li.first {
+  margin-left: 0;
+}
+
 /*******************************************
 * 3.2.3. Sidebar second
 *******************************************/
