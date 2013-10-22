@@ -992,8 +992,15 @@ select {
   text-transform: uppercase;
 }
 
+#zone-content .menu-block-1 {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: auto;
+}
+
 #zone-content .menu-block-1 li {
   list-style: none;
+  display: inline;
 }
 
 #zone-content .menu-block-1 li.first {
