@@ -995,12 +995,24 @@ select {
 #zone-content .block-menu-block-1 {
   padding-bottom: 20px;
   text-align: center;
-  margin: auto;
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+#zone-content .menu-block-1 ul {
+  position: relative;
+  left: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  float: left;
 }
 
 #zone-content .menu-block-1 li {
   list-style: none;
-  display: inline;
+  float:left;
+  position: relative;
+  right: 50%;
 }
 
 #zone-content .menu-block-1 li.first {
