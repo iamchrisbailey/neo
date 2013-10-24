@@ -981,9 +981,7 @@ select {
 
 #zone-content .view-press .field-name-field-image {
   display: block;
-  background-color: #ffffff;
-  padding: 10px; 
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
 }
 
 #zone-content .view-press .views-field-title {
@@ -1014,7 +1012,6 @@ select {
   float:left;
   position: relative;
   right: 50%;
-  border-right: 1px solid #666;
 }
 
 #zone-content .menu-block-1 li.first {
