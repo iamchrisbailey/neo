@@ -2,6 +2,12 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal
  *  and widescreen CSS files as appropriate. */
+
+.slider-headline {
+  font-size: 30px;
+  line-height: 1;
+}
+
 /**************************************************
 * --
 * 3. Section content

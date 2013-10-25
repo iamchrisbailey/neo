@@ -268,10 +268,8 @@ select {
 .slider-headline {
   font-family: Maven Pro;
   color: #fff;
-  font-size: 80px;
   text-transform: uppercase;
   text-shadow: 0 1px 1px #000000;
-  line-height: 1;
 }
 
 .slider-tagline {
