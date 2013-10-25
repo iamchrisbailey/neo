@@ -262,13 +262,16 @@ select {
   padding: 15px;
   text-align: center;
   width: 100%;
+  bottom: 15%;
 }
 
 .slider-headline {
   font-family: Maven Pro;
+  font-size: 40px;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 1px 1px #000000;
+  line-height: 1;
 }
 
 .slider-tagline {
