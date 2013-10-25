@@ -2,6 +2,20 @@
 @import url(//fonts.googleapis.com/css?family=Gentium+Basic:400,700);
 /* Include Default Variables & Mixins */
 /* End Variables & Mixins */
+
+.headline-wrapper {
+  bottom: 25%;
+}
+
+.slider-headline {
+  font-size: 80px;
+  line-height: 1;
+}
+
+.slider-tagline {
+  font-size: 20px;
+}
+
 /**************************************************
 * --
 * 2. Section header
