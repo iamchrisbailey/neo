@@ -3,8 +3,17 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal
  *  and widescreen CSS files as appropriate. */
 
+.headline-wrapper {
+  bottom: 15%;
+}
+
 .slider-headline {
   font-size: 30px;
+  line-height: 1;
+}
+
+.slider-tagline {
+  font-size: 10px;
   line-height: 1;
 }
 
