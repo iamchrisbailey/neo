@@ -16,6 +16,8 @@ drush en -y flexslider_views
 drush en -y commerce_product_clone
 drush en -y draggableviews
 drush en -y menu_block
+drush en -y commerce_stock
+drush en -y commerce_stock_ui
 
 #Features test
 drush en -y neo_slideshow
