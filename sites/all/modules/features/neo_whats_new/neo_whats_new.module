@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the neo_whats_new feature.
+ */
+
+include_once 'neo_whats_new.features.inc';

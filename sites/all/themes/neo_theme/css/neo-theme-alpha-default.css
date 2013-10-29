@@ -215,6 +215,66 @@
   margin: 0 10px;
   width: inherit; }
 
+.front .region-content .block-views {
+  margin-bottom: 30px;
+}
+
+.front .region-content .block-views .block-title {
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: 25px;
+}
+
+.front .region-content .block-views .block-title:before,
+.front .region-content .block-views .block-title:after {
+  background-color: #CCCCCC;
+  content: "";
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  width: 30%;
+}
+
+.front .region-content .block-views .block-title:after {
+    left: auto;
+    right: 0;
+}
+
+.front .region-content .block-views img {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.front .region-content .block-views .item-list ul li {
+  margin: 0 20px 0 0;
+}
+
+.front .region-content .block-views li {
+  display: inline;
+  float: left;
+}
+
+.front .region-content .block-views .views-row-first {
+  margin-left: 0;
+}
+
+.front .region-content .block-views .item-list .views-row-last {
+  margin-right: 0;
+}
+
+.view-featured-products .field-name-field-tagline {
+  text-transform: uppercase;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.view-whats-new .views-field-title {
+  text-transform: uppercase;
+  padding-top: 10px;
+  text-align: center;
+}
+
 #zone-postscript {
   /* Adverts blocks */ }
   #zone-postscript .view-ad-push .views-row,
@@ -229,7 +289,8 @@
     position: relative;
     bottom: 0;
     left: 0;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 20px; }
     #zone-postscript .view-ad-push .views-row .views-field-field-tagline a,
     #zone-postscript .block-blog-block .block-inner .content .views-field-title a {
       border: 0; }
