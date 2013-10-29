@@ -40,7 +40,7 @@ function neo_whats_new_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 450,
+          'width' => 460,
           'height' => 300,
         ),
         'weight' => 1,
