@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the neo_featured_products feature.
+ */
+
+include_once 'neo_featured_products.features.inc';
