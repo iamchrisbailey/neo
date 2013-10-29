@@ -13,6 +13,7 @@ features[features_api][] = api:2
 features[field_instance][] = node-whats_new-field_image
 features[field_instance][] = node-whats_new-field_link
 features[field_instance][] = node-whats_new-title_field
+features[image][] = whats_new
 features[node][] = whats_new
 features[variable][] = comment_anonymous_whats_new
 features[variable][] = comment_default_mode_whats_new
