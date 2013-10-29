@@ -22,3 +22,5 @@ drush en -y commerce_stock_ui
 #Features test
 drush en -y neo_slideshow
 drush en -y neo_press
+drush en -y neo_whats_new
+drush en -y neo_featured_products
