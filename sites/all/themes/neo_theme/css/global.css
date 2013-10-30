@@ -266,7 +266,7 @@ select {
 }
 
 .slider-headline {
-  font-family: Lato;
+  font-family: Roboto Slab;
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
@@ -275,7 +275,7 @@ select {
 }
 
 .slider-tagline {
-  font-family: Lato;
+  font-family: Roboto Slab;
   color: #f1f1f1;
   font-weight: 100;
   text-shadow: 0 1px 1px #000000;
@@ -358,7 +358,7 @@ select {
       .block-menu-user-menu .content ul.menu li a {
         display: block;
         color: #444444;
-        font-family: Lato,Garamond,Baskerville,Caslon,serif;
+        font-family: Roboto Slab,Garamond,Baskerville,Caslon,serif;
         font-size: 11px;
         text-transform: uppercase;
         -moz-border-radius: 4px;
@@ -436,7 +436,7 @@ select {
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
       display: inline;
       float: left;
-      font-family: Lato;
+      font-family: Roboto Slab;
       font-size: 11px;
       height: 34px;
       line-height: 30px;
@@ -601,9 +601,8 @@ select {
   background: #444444;
   display: none;
   padding-bottom: 10px;
-  font-family: Lato,Garamond,Baskerville,Caslon,serif;
+  font-family: Roboto Slab,Garamond,Baskerville,Caslon,serif;
   text-transform: uppercase;
-  font-weight: 300;
   /* Main menu */
   /* Secondary menu */ }
   .navigation h2 {
@@ -632,8 +631,8 @@ select {
         .navigation .primary-menu ul li a,
         .navigation .second-menu ul li a {
           display: block;
-          font-family: Lato,Garamond,Baskerville,Caslon,serif;
-          font-weight: 300;
+          font-family: Roboto Slab,Garamond,Baskerville,Caslon,serif;
+          font-weight: 100;
           padding: 12px 16px;
           text-decoration: none; }
           .navigation .primary-menu ul li a:hover,
