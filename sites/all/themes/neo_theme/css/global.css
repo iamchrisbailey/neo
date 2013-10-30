@@ -1660,16 +1660,15 @@ body.activebar-container .zone-footer2-wrapper {
   float: left;
   width: 300px;
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 
-.view-tester .views-row-even {
-  margin-left: 20px;
-  margin-right: 20px;
+.view-tester .views-field .views-field-title {
+  font-family: Lato;
 }
 
 .view-tester .views-row-odd {
-  margin-left: 0;
-  margin-right: 0;
+
 }
 
 /**********************************************
