@@ -1656,6 +1656,22 @@ body.activebar-container .zone-footer2-wrapper {
         .block-search-api-sorts .content ul.search-api-sorts li .search-api-sort-active .sort-desc img {
           vertical-align: baseline; }
 
+.view-tester .product-list-new {
+  float: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.view-tester .views-row-even {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.view-tester .views-row-odd {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /**********************************************
 * 5.3. Product page
 **********************************************/
