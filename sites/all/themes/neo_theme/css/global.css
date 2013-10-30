@@ -1661,6 +1661,7 @@ body.activebar-container .zone-footer2-wrapper {
   width: 300px;
   margin-bottom: 20px;
   margin-right: 10px;
+  margin-left: 0px;
 }
 
 .view-tester .views-field .views-field-title {
@@ -1670,6 +1671,10 @@ body.activebar-container .zone-footer2-wrapper {
 
 .view-tester .views-row-odd {
 
+}
+
+.page-product-category .title {
+  margin-left: 0px;
 }
 
 /**********************************************
