@@ -266,7 +266,7 @@ select {
 }
 
 .slider-headline {
-  font-family: Lato light;
+  font-family: Lato;
   font-size: 40px;
   color: #fff;
   text-transform: uppercase;
@@ -275,7 +275,7 @@ select {
 }
 
 .slider-tagline {
-  font-family: Lato light;
+  font-family: Lato;
   color: #f1f1f1;
   font-weight: 100;
   text-shadow: 0 1px 1px #000000;
@@ -436,7 +436,7 @@ select {
     .block-shopping-cart-block .content .view-shopping-cart .line-item-summary {
       display: inline;
       float: left;
-      font-family: Roboto Slab;
+      font-family: Lato;
       font-size: 11px;
       height: 34px;
       line-height: 30px;
