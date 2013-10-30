@@ -1665,6 +1665,7 @@ body.activebar-container .zone-footer2-wrapper {
 
 .view-tester .views-field .views-field-title {
   font-family: Lato;
+  text-transform: uppercase;
 }
 
 .view-tester .views-row-odd {
