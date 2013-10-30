@@ -1140,7 +1140,8 @@ select {
 * --
 **************************************************/
 .section-footer {
-  background-color: white; }
+  background-color: white;
+  font-family: Lato; }
 
 /**********************************************
 * 4.1. Zone footer
