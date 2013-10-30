@@ -358,7 +358,7 @@ select {
       .block-menu-user-menu .content ul.menu li a {
         display: block;
         color: #444444;
-        font-family: Roboto Slab,Garamond,Baskerville,Caslon,serif;
+        font-family: Lato,Garamond,Baskerville,Caslon,serif;
         font-size: 11px;
         text-transform: uppercase;
         -moz-border-radius: 4px;
