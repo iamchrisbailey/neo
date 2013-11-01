@@ -487,7 +487,8 @@ select {
     margin: 10px 0;
     text-align: center;
     width: 373px;
-    height: 114px; }
+    height: 114px;
+    margin: auto; }
 
 /**
 * Search block
