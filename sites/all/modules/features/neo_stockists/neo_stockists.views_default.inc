@@ -22,7 +22,6 @@ function neo_stockists_views_default_views() {
 
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
-  $handler->display->display_options['title'] = 'Stockists';
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['access']['type'] = 'perm';
   $handler->display->display_options['cache']['type'] = 'none';
@@ -155,9 +154,8 @@ function neo_stockists_views_default_views() {
     'stockist' => 'stockist',
   );
 
-  /* Display: Page */
-  $handler = $view->new_display('page', 'Page', 'page');
-  $handler->display->display_options['path'] = 'stockists';
+  /* Display: Block */
+  $handler = $view->new_display('block', 'Block', 'block_1');
   $export['stockists'] = $view;
 
   return $export;
