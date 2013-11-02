@@ -73,6 +73,12 @@
 .menu-toggle {
   display: none; }
 
+.zone-menu-wrapper {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  margin-top: 0px;
+}
+
 .navigation {
   background: transparent;
   display: block !important;
