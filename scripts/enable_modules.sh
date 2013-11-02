@@ -18,6 +18,11 @@ drush en -y draggableviews
 drush en -y menu_block
 drush en -y commerce_stock
 drush en -y commerce_stock_ui
+drush en -y location
+drush en -y location_node
+drush en -y gmap
+drush en -y gmap_location
+drush en -y gmap_macro_builder
 
 #Features test
 drush en -y neo_slideshow
