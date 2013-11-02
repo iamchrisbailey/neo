@@ -313,6 +313,7 @@ select {
   font-size: 11px;
   font-family: Roboto Slab;
   color: #666;
+  display:none;
 }
 
 .neo-top {
@@ -396,7 +397,7 @@ select {
 
 .block-shopping-cart-block {
   margin: 0 auto;
-  margin-left: 50px;
+  margin-left: 0px;
   /* LTR */ }
   .block-shopping-cart-block .content {
     /*background-color: #ffffff;
