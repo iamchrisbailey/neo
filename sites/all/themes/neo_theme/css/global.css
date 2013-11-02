@@ -267,7 +267,7 @@ select {
 
 .slider-headline {
   font-family: Roboto Slab;
-  font-size: 40px;
+  font-size: 25px;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 1px 1px #000000;
@@ -495,7 +495,8 @@ select {
 */
 #block-views-exp-display-products-page {
   margin-bottom: 10px;
-  padding-top: 28px; }
+  padding-top: 28px; 
+  display:none; }
 
 #block-views-exp-display-products-page .views-exposed-widgets {
   float: right;
