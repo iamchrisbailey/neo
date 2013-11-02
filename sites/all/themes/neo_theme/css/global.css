@@ -1331,7 +1331,7 @@ body.activebar-container .zone-footer2-wrapper {
 * Payment blocks
 */
 #block-menu-menu-payment-methods {
-  background-color: #ffffff;
+  background-color: transparent;
   color: #3f3f3f;
   padding: 10px; }
   #block-menu-menu-payment-methods h2 {
