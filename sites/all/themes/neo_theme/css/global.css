@@ -727,6 +727,34 @@ select {
 .front .section-content {
   min-height: 100%; }
 
+.stockist-wrapper {
+  min-width: 350px;
+}
+
+.stockist-wrapper h4 {
+  margin-bottom: 5px;
+}
+
+.stockist-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  background: #fff;
+}
+
+.stockist-footer {
+  border-top: 1px solid #e1e1e1;
+  margin-top: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.stockist-footer-item {
+  margin-top: 10px;
+  float: right;
+  padding-left: 10px;
+}
+
 /**********************************************
 * 3.1. Zone preface
 **********************************************/

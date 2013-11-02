@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the NEO Stockists feature.
+ */
+
+include_once 'neo_stockists.features.inc';

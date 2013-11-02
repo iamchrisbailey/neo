@@ -20,6 +20,7 @@ drush en -y commerce_stock
 drush en -y commerce_stock_ui
 drush en -y location
 drush en -y location_node
+drush en -y location_phone
 drush en -y gmap
 drush en -y gmap_location
 drush en -y gmap_macro_builder
@@ -29,3 +30,4 @@ drush en -y neo_slideshow
 drush en -y neo_press
 drush en -y neo_whats_new
 drush en -y neo_featured_products
+drush en -y neo_stockists
