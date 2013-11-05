@@ -123,7 +123,7 @@ html {
 body {
   font-family: Roboto Slab, sans-serif;
   font-size: 14px;
-  font-weight: 100;
+  font-weight: 300;
   margin: 0;
   overflow-x: hidden;
   width: 100%; }
@@ -268,6 +268,7 @@ select {
 .slider-headline {
   font-family: Roboto Slab;
   font-size: 25px;
+  font-weight: 300;
   color: #fff;
   text-transform: uppercase;
   text-shadow: 0 1px 1px #000000;
@@ -277,7 +278,7 @@ select {
 .slider-tagline {
   font-family: Roboto Slab;
   color: #f1f1f1;
-  font-weight: 100;
+  font-weight: 300;
   text-shadow: 0 1px 1px #000000;
   text-transform: uppercase;
 }
@@ -312,6 +313,7 @@ select {
   transition: all 0.3s ease 0s;
   font-size: 11px;
   font-family: Roboto Slab;
+  font-weight: 300;
   color: #666;
   display:none;
 }
@@ -1846,7 +1848,7 @@ div.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper .b
 .node-product-type .field-name-commerce-price {
   font-family: Roboto Slab,Garamond,Baskerville,Caslon,serif;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   margin-bottom: 20px;
   color: #777; }
 .node-product-type .cloud-zoom-container {
