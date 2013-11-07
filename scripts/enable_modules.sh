@@ -24,6 +24,7 @@ drush en -y location_phone
 drush en -y gmap
 drush en -y gmap_location
 drush en -y gmap_macro_builder
+drush en -y commerce_reports
 
 #Features test
 drush en -y neo_slideshow
