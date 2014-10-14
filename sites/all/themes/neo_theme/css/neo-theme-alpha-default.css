@@ -271,6 +271,11 @@
   margin: 0 20px 0 0;
 }
 
+.front .region-content .block-featured-products-block .item-list ul li {
+  margin: 0 20px 0 0;
+  width: 300px;
+}
+
 .front .region-content .block-views li {
   display: inline;
   float: left;
